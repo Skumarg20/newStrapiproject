@@ -1,0 +1,19 @@
+[
+    {
+      "method": "POST",
+      "path": "/payment/order",
+      "handler": "payment.createOrder",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/payment/capture",
+      "handler": "payment.capturePayment",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+  
